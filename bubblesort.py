@@ -43,5 +43,5 @@ for i in range(4):
     tempo.append(timeit.timeit("bubblesort({})".format(lista), setup="from __main__ import bubblesort", number=1))
     troca.append(bubblesort(lista))
 
-desenhaGrafico(tamanho, tempo, 'bubblesort-tempo', 'Tamanho da lista de números', 'Tempo para ordenar pelo método')
-desenhaGrafico(tamanho, troca, 'bubblesort-troca', 'Tamanho da lista', 'Quantidade de operações (swap)')
+desenhaGrafico(tamanho, tempo, 'bubblesort-tempo.png', 'Tamanho da lista de números', 'Tempo para ordenar pelo método')
+desenhaGrafico(tamanho, troca, 'bubblesort-troca.png', 'Tamanho da lista', 'Quantidade de operações (swap)')
