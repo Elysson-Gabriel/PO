@@ -56,4 +56,4 @@ for i in range(4):
     troca2.append(selectionsort(lista2))
 
 desenhaGrafico(tamanho, tempo, tempo2, 'selectionsort-tempo.png', 'Tamanho da lista de números', 'Tempo para ordenar pelo método')
-desenhaGrafico(tamanho, troca, troca2, 'selectionsort-troca.png', 'Tamanho da lista', 'Quantidade de comparações')
+desenhaGrafico(tamanho, troca, troca2, 'selectionsort-comparacoes.png', 'Tamanho da lista', 'Quantidade de comparações')
